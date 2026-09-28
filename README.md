@@ -1,4 +1,4 @@
-# d-OPD: Future-aware on-policy distillation for diffusion language models.
+# d-OPD: Future-aware on-policy distillation for block diffusion language models.
 
 d-OPD studies how to transfer the knowledge of an autoregressive teacher to a block-diffusion student. The two models predict under different contexts: an autoregressive model proceeds from left to right, while a diffusion model can use revealed tokens on both sides of a masked position. Directly matching autoregressive token distributions does not fully account for this difference.
 
